@@ -1,0 +1,9 @@
+com/in28minutes/rest/webservices/restful_web_services/helloworld/helloWorldBean.class
+com/in28minutes/rest/webservices/restful_web_services/helloworld/HelloWorldController.class
+com/in28minutes/rest/webservices/restful_web_services/user/UserDaoService.class
+com/in28minutes/rest/webservices/restful_web_services/exception/CustomizedResponseEntityExceptionHandler.class
+com/in28minutes/rest/webservices/restful_web_services/user/User.class
+com/in28minutes/rest/webservices/restful_web_services/user/UserNotFoundException.class
+com/in28minutes/rest/webservices/restful_web_services/exception/ErrorDetails.class
+com/in28minutes/rest/webservices/restful_web_services/RestfulWebServicesApplication.class
+com/in28minutes/rest/webservices/restful_web_services/user/UserResource.class
