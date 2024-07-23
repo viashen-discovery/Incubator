@@ -1,0 +1,31 @@
+openapi: 3.0.1
+info:
+  title: Task Two API definitions
+  version: v.1.0.1
+paths:
+  /lecture-attendees:
+    get:
+      tags:
+        - task-two-controller
+      operationId: lecture-attendees
+      responses:
+        200:
+          description: ok
+          content:
+            '*/*':
+              schema:
+                $ref: "#/components/schemas/LectureAttendees"
+components:
+  schemas:
+    LectureAttendees:
+      type: object
+      properties:
+        studentNumber:
+          type: integer
+          example: 218014208
+        name:
+          type: string
+          example: Usain Bolt
+        check-in:
+          type: boolean
+          example: true
